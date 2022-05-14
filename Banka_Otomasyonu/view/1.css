@@ -1,0 +1,152 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+ 
+ ::placeholder {
+	 color: #ddd!important;
+}
+ * {
+	 margin: 0!important;
+	 padding: 0!important;
+	 box-sizing: border-box!important;
+	 color: #ddd!important;
+	 font-family: 'Montserrat', sans-serif!important;
+	
+}
+ input, button {
+	 display: inline-block!important;
+	 width: 100%!important;
+	 height: 3.23rem!important;
+	 border: none!important;
+	 outline: none!important;
+	 border-radius: 100px!important;
+	 background: rgba(255, 255, 255, .15)!important;
+}
+ .login {
+	 min-height: 100vh!important;
+	 width: 100%!important;
+	 background: url('https://raw.githubusercontent.com/mariofornaroli/y-responsive-login-page/main/images/bk.png'), #023262!important;
+	 background-size: cover!important;
+	 font-size: 1rem!important;
+	 display: flex!important;
+	 justify-content: center!important;
+	 align-items: center!important;
+}
+ .login .container {
+	 position: relative!important;
+	 width: 90%!important;
+	 max-width: 420px!important;
+	 padding: 24px!important;
+	 display: flex!important;
+	 flex-direction: column!important;
+	 align-items: center!important;
+}
+ .login .title {
+	 font-size: 1.8rem!important;
+	 letter-spacing: 1px!important;
+	 margin-bottom: 1.5rem!important;
+}
+ .login .social-login {
+	 display: flex!important;
+	 justify-content: space-between!important;
+	 align-items: center!important;
+}
+ .login .social-login button {
+	 display: flex!important;
+	 justify-content: flex-start!important;
+	 align-items: center!important;
+	 width: 10rem!important;
+	 margin: 0.75rem!important;
+	 padding: 0.625rem!important;
+	 text-transform: uppercase!important;
+	 letter-spacing: 0.7px!important;
+	 cursor: pointer!important;
+	 
+}
+ .login .social-login button:hover {
+	 background: rgba(255, 255, 255, .3)!important;
+}
+ .login .social-login button i {
+	 display: flex!important;
+	 justify-content: center!important;
+	 align-items: center!important;
+	 width: 2.25rem!important;
+	 height: 2.25rem!important;
+	 background-color: #fff!important;
+	 border-radius: 50%!important;
+	 font-size: 1.4rem!important;
+	 padding-left: 2px!important;
+	 text-align: center!important;
+	 margin-right: 0.25rem!important;
+}
+ .login .social-login button i.fa-facebook-f {
+	 color: #000!important;
+}
+ .login .social-login button i.fa-google {
+	 color: #000!important;
+}
+ .login .separator {
+	 width: 100%!important;
+	 display: flex!important;
+	 align-items: center!important;
+	 justify-content: center!important;
+}
+ .login .separator span {
+	 display: block!important;
+	 width: 100%!important;
+	 height: 1px!important;
+	 background: #ddd!important;
+	 margin: 1.5rem!important;
+}
+ form {
+	 width: 100%!important;
+}
+ form .form-group {
+	 margin-bottom: 1.5rem!important;
+}
+ form .form-group label {
+	 display: block!important;
+	 letter-spacing: 0.5px!important;
+	 margin-bottom: 0.5rem!important;
+	 padding-left: 1.5rem!important;
+	 color: dark-blue!important;
+}
+ form .form-group input {
+	 letter-spacing: 0.5px!important;
+	 font-size: 1.1rem!important;
+	 padding: 0 1.5rem!important;
+}
+
+ button[type='button'] {
+	 background: #1889ac!important;
+	 color: #023262!important;
+	 font-size: 1.3rem!important;
+	 font-weight: bold!important;
+	 letter-spacing: 1px!important;
+	 cursor: pointer!important;
+	 margin: 1rem 0!important;
+	 transition: all 0.3s linear!important;
+	 
+}
+ button[type='button']:hover {
+	 background: #ffc800!important;
+	 opacity: 0.8!important;
+}
+ .additional-act {
+	 width: 100%!important;
+	 text-align: center!important;
+	 letter-spacing: 0.7px!important;
+	 margin: 0.5rem 0!important;
+}
+ .additional-act span {
+	 color: #ecbb08!important;
+	 cursor: pointer!important;
+}
+.h1{
+	
+		font-family: Verdana, monospace, sans-serif!important;
+		font-size: 12px!important;
+		font-weight: bold!important;
+		text-align: justify!important;
+		min-height: 800px!important;
+	
+	
+}
